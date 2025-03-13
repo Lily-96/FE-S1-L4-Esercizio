@@ -1,6 +1,30 @@
 body {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  background-image: url(../img/sfondo.png);
 }
-
+header {
+  text-align: center;
+  display: inline-flexbox;
+  background-color: rgb(59, 134, 167);
+  min-height: 20vh;
+  margin: 20px;
+  padding-top: 20px;
+  background-image: linear-gradient(358deg, rgba(46, 105, 132, 1) 0%, rgba(67, 152, 187, 0.9719537473192402) 97%);
+}
+header div p {
+  margin-block: 1em;
+}
+header nav {
+  padding-bottom: 15px;
+}
+header nav ul {
+}
 /* HEADER */
 
 /* MAIN */
