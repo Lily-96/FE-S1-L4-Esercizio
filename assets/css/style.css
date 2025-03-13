@@ -7,15 +7,16 @@ body {
   font-weight: 600;
   font-style: normal;
   background-image: url(../img/sfondo.png);
+  padding: 1rem;
 }
 header {
   text-align: center;
   display: inline-flexbox;
   background-color: rgb(59, 134, 167);
-  min-height: 20vh;
-  margin: 20px;
-  padding-top: 20px;
+  margin-block: 1rem;
+  margin-bottom: 1rem;
   background-image: linear-gradient(358deg, rgba(46, 105, 132, 1) 0%, rgba(67, 152, 187, 0.9719537473192402) 97%);
+  padding: 2rem;
 }
 header div p {
   margin-block: 1em;
@@ -23,7 +24,13 @@ header div p {
 header nav {
   padding-bottom: 15px;
 }
-header nav ul {
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  background-color: aliceblue;
+  padding: 1rem;
 }
 /* HEADER */
 
